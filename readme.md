@@ -13,9 +13,12 @@ python -m unittest discover
 - pip install nose
 - pip install pinocchio
 - pip install coverage
+- pip install -r requirements.txt
 
 # Test Commands
 - nosetests -v —with-spec —spec-color 
 - coverage report -muse 
 # NB:
 - setup.cfg to minimize use of long commands for running test
+
+- pip freeze > requirements.txt
