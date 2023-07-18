@@ -14,7 +14,8 @@ python -m unittest discover
 - pip install pinocchio
 - pip install coverage
 
+# Test Commands
 - nosetests -v —with-spec —spec-color 
 - coverage report -muse 
-
+# NB:
 - setup.cfg to minimize use of long commands for running test
