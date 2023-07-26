@@ -22,3 +22,18 @@ python -m unittest discover
 - setup.cfg to minimize use of long commands for running test
 
 - pip freeze > requirements.txt
+
+# TEST FIXTURES
+- Happy paths verify that a function returns positive outcomes when expected, while sad paths verify that a function responds to exceptions appropriately and without breaking. 
+
+- Test fixtures establish a known initial state before and after each test. 
+
+- Test fixtures are helpful for many testing situations such as creating mock objects and loading a database with a known set of data. 
+
+- Test fixtures operate at three levels of specificity: 
+
+- * Module 
+
+- * Test case 
+
+- * Test 
